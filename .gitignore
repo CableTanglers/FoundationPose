@@ -156,3 +156,9 @@ data/
 logs/
 !BundleTrack/XMem/inference/data
 run_used.yml
+# Build-time C++ dependency clones (per AIC operator request 2026-05-19;
+# these are large transient checkout dirs from the README install steps,
+# not source tracked in this fork).
+eigen-3.4.0/
+nvdiffrast/
+pybind11/
